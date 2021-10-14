@@ -218,11 +218,11 @@ class _QuizAppState extends State<QuizApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueGrey,
+      //backgroundColor: Colors.blueGrey,
       appBar: AppBar(
         title: Text('True citizens'),
         centerTitle: true,
-        backgroundColor: Colors.blueGrey,
+       // backgroundColor: Colors.blueGrey,
       ),
       body: Container(
         child: Column(
@@ -255,7 +255,7 @@ class _QuizAppState extends State<QuizApp> {
                   child: Text(
                     questionBank[_currentQuestionIndex % questionBank.length]
                         .questionText,
-                    style: TextStyle(fontSize: 16.9, color: Colors.white),
+                    //style: TextStyle(fontSize: 16.9, color: Colors.white),
                   ),
                 )),
               ),
